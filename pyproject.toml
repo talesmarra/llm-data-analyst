@@ -2,9 +2,8 @@
 name = "llm-data-analyst"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Tales Marra"]
 readme = "README.md"
-packages = [{include = "llm_data_analyst"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -13,6 +12,8 @@ pandas = "^2.0.3"
 streamlit = "^1.25.0"
 langchain = "^0.0.265"
 docarray = "^0.37.0"
+python-dotenv = "^1.0.0"
+tabulate = "^0.9.0"
 
 
 [build-system]
